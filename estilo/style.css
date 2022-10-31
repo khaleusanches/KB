@@ -35,7 +35,8 @@ header > img {
 }
 
 header > a.FT{
-    padding-left: 60px;
+    display: block;
+    text-align: center;
     text-decoration: none;
     color: rgb(255, 179, 249);
     font-size: 25px;
@@ -51,8 +52,9 @@ header > a.TL{
     font-size: 25px;
     display: block;
     float: right;
-    padding-right: 60px;
+    padding-right: 90px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.329);
+    display: none;
 }
 header > a.TL:hover{
     color: purple;
@@ -75,8 +77,8 @@ main{
     padding-top: 15px;
     padding-left: 10px;
     font-size: 17px;
-    max-width: 300;
-    color: rgb(255, 179, 249);
+    max-width: 290;
+    color: #ffb3f9;
     padding-right: 7px;
     text-align: center;
     padding-bottom: 25px;
@@ -90,7 +92,27 @@ main > p.t1{
 main > img.teste{
     border: 2px solid;
     border-radius: 10px;
-    max-width: 320px;
+    max-width: 290px;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+
+p.date {
+    font-size: 15px;
+}
+
+button.circula{
+    background-color: rgb(122, 0, 20);
+    width: 13px;
+    height: 13px;
+    border: 0px;
+    border-radius: 50%;
+}
+
+p#tfev{
+    display: none;
+}
+
+p#tmarc03 {
+    display:none;
 }
